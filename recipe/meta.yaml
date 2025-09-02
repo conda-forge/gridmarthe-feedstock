@@ -1,5 +1,5 @@
 {% set name = "gridmarthe" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://gitlab.com/brgm/hydrogeological-modelling/marthe-tools/gridmarthe/-/archive/v{{ version }}/gridmarthe-v{{ version }}.tar.gz
-  sha256: 19b9866f516bc3a45fc97d7cee408723fb6ce84bf01340938d86b66d1d1b5400
+  sha256: 1b87e8125bf4c7b21d484f6d2b757c9c8489b09ae4ebb321f61d92b9dc047a11
 
 build:
-  number: 2
-  skip: True  # [py<310]
+  number: 0
+  skip: true  # [py<310]
   # entry_points:
   #     - ncmart = gridmarthe:scripts.ncmart
   #     - cleanmgrid =gridmarthe:scripts.cleanmgrid
