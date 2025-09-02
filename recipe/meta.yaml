@@ -61,7 +61,7 @@ about:
     Release under GNU General Public License version 3.0
   license: GPL-3.0-or-later
   license_family: GPL
-  license_file: LICENSE
+  license_file: COPYING
   doc_url: 'https://gridmarthe.readthedocs.io/en/latest/'
 
 extra:
