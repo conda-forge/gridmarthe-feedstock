@@ -10,7 +10,7 @@ source:
   sha256: dee821a0b30cb0c286ebadfbe9d7ef206ed331343b7601e95a200e991a905200
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<310]
   # entry_points:
   #     - ncmart = gridmarthe:scripts.ncmart
