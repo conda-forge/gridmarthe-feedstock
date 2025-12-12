@@ -3,9 +3,6 @@
 #fortran_compiler_version:  # [win]
 #  - 19                     # [win]
 
-c_compiler_version:  # [win]
-  - 21               # [win]
-
 c_linker_version:  # [win]
   - 21             # [win]
 
