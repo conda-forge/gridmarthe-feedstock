@@ -8,9 +8,9 @@ REM Windows build script
 REM Flags for meson, which do not correctly detect flang-new and linkers
 REM https://github.com/mesonbuild/meson/issues/12306
 
-set LD=lld-link
-set FC_LD=lld-link
-set CC_LD=lld-link
+REM set LD=lld-link
+REM set FC_LD=lld-link
+REM set CC_LD=lld-link
 
 REM ---- BUILD with meson backend and pip
 cd %SRC_DIR%
