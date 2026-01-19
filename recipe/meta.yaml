@@ -13,9 +13,9 @@ build:
   number: 1
   skip: true  # [py<310]
   entry_points:
-    - ncmart = gridmarthe:scripts.ncmart:main
-    - cleanmgrid = gridmarthe:scripts.cleanmgrid:main
-    - martshp = gridmarthe:scripts.martshp:main
+    - ncmart = gridmarthe.scripts.ncmart:main
+    - cleanmgrid = gridmarthe.scripts.cleanmgrid:main
+    - martshp = gridmarthe.scripts.martshp:main
 
 requirements:
   build:
