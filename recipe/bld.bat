@@ -14,7 +14,7 @@ set CC_LD=lld-link
 
 REM ---- BUILD with meson backend and pip
 cd %SRC_DIR%
-%PYTHON% -m pip install --no-deps -vvv . ^
+%PYTHON% -m pip install --no-deps --ignore-installed -vvv . ^
     -Cbuild-dir=build ^
     -Csetup-args=-Dcondabuild=true
 
