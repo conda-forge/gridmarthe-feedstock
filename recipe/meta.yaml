@@ -30,10 +30,10 @@ requirements:
     - charset-normalizer
     - meson
     - meson-python
-    - numpy
+    - numpy <3.0
   run:
     - python
-    - pandas
+    - pandas <3.0
     - h5py
     - netcdf4
     - h5netcdf

@@ -3,8 +3,9 @@
 fortran_compiler_version:  # [win]
   - 19                     # [win]
 
-numpy:
-  - <3.0
-
-pandas:
-  - <3.0
+# # use newer numpy; can be removed once migrated for numpy 2.0
+# numpy:
+#   - 1.26
+#   - 1.26
+#   - 1.26
+#   - 1.26
