@@ -10,7 +10,7 @@ source:
   sha256: 7b1d70ae787681501c36028f9372bc70564d2c3a78a518fd1770b6ef36d54c11
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<311]
   entry_points:
     - ncmart = gridmarthe.scripts.ncmart:main
@@ -20,8 +20,9 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-    - {{ compiler('fortran') }}
     - {{ stdlib("c") }}
+    - {{ compiler('cxx') }}
+    - {{ compiler('fortran') }}
     - ninja
     - meson
   host:
