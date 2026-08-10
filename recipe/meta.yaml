@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/brgm/hydrogeological-modelling/marthe-tools/gridmarthe/-/archive/v{{ version }}/gridmarthe-v{{ version }}.tar.gz
-  sha256: 7b1d70ae787681501c36028f9372bc70564d2c3a78a518fd1770b6ef36d54c11
+  sha256: e54921fc99e2cf54f4d7f118b96b38f69ba82a35c0308630165ea371905f438d
 
 build:
   number: 2
