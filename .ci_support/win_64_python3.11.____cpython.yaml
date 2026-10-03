@@ -6,8 +6,6 @@ channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
-conda_launchers:
-- '>=24.7.1'
 cxx_compiler:
 - clang
 fortran_compiler:
