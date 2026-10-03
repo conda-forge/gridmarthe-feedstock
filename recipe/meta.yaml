@@ -42,6 +42,10 @@ requirements:
     - geopandas
     - shapely
     - matplotlib-base
+    - scipy
+    - typing_extensions
+    - pip:
+        - vtkwriters
 
 test:
   imports:
