@@ -10,6 +10,14 @@ fortran_compiler:           # [win]
 fortran_compiler_version:   # [win]
   - 21                      # [win]
 
+# try to fix conda-launcher issue on windows
+# not providing "share/conda-launchers/cli-64.exe."
+# conda_launchers:
+#   - ">=24.7.1"  # [win]
+# not functional, try to downgrade conda-build
+conda_build:
+  - "2026.7.1"  # [win]
+
 # # use newer numpy; can be removed once migrated for numpy 2.0
 # numpy:
 #   - 1.26
