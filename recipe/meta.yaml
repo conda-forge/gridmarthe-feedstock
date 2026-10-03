@@ -44,8 +44,7 @@ requirements:
     - matplotlib-base
     - scipy
     - typing_extensions
-    - pip:
-        - vtkwriters
+    - vtkwriters
 
 test:
   imports:
