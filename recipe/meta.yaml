@@ -19,8 +19,6 @@ build:
 
 requirements:
   build:
-    # conda-build > 26.9 split conda launcher - bug in win CI
-    - conda-launchers >=24.7.1  # [win]
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
