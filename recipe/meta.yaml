@@ -25,6 +25,7 @@ requirements:
     - {{ compiler('fortran') }}
     - ninja
     - meson
+    - conda-launchers  # [win]
   host:
     - python
     - pip
